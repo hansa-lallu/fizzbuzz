@@ -21,4 +21,12 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(10)).to eq 'buzz'
   end
 
+  it 'requires "fizzbuzz" when passed 30' do
+    expect(fizzbuzz(30)).to eq 'fizzbuzz'
+  end
+
+  it 'requires "2" when passed 2' do
+    expect(fizzbuzz(2)).to eq 2
+  end
+
 end
