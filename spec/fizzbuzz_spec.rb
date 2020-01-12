@@ -29,4 +29,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(2)).to eq 2
   end
 
+  it 'requires "error" when passed -3' do
+    expect(fizzbuzz(-3)).to eq "error"
+  end
+
 end
